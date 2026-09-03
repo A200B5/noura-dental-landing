@@ -1,0 +1,72 @@
+.booking {
+  margin: 102px auto;
+  background: var(--dark-green);
+  color: white;
+  padding: 55px 64px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 55px;
+  position: relative;
+  overflow: hidden;
+}
+.booking:after {
+  content: '';
+  position: absolute;
+  height: 290px;
+  width: 290px;
+  border: 1px solid #ffffff2d;
+  border-radius: 50%;
+  right: -110px;
+  top: -100px;
+}
+.booking .eyebrow {
+  color: #b9d9bf;
+}
+.booking .eyebrow span {
+  background: #b9d9bf;
+}
+.booking h2 {
+  font-size: clamp(36px, 4vw, 51px);
+  line-height: 1.07;
+  margin: 0;
+  max-width: 510px;
+}
+.booking p:not(.eyebrow) {
+  color: #d9e8dd;
+  line-height: 1.5;
+  margin: 16px 0 0;
+  max-width: 500px;
+}
+.booking-form {
+  display: grid;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+.booking-form input {
+  height: 47px;
+  border: 1px solid #ffffff5a;
+  border-radius: 2px;
+  background: #fff;
+  color: var(--ink);
+  padding: 0 14px;
+  font: inherit;
+  font-size: 13px;
+}
+.booking-form .button {
+  background: #e9a17b;
+  color: #251c18;
+}
+.booking-form .button:hover {
+  background: #f1b18f;
+}
+
+@media (max-width: 800px) {
+  .booking {
+    margin: 65px auto;
+    padding: 42px 28px;
+    grid-template-columns: 1fr;
+    gap: 27px;
+  }
+}
