@@ -44,6 +44,12 @@ noura-dental-landing/
 │       └── global.css
 ```
 
+## Preview
+
+### Homepage
+
+![Noura Dental Homepage](./Screenshots/homepage.png)
+
 ## Getting Started
 
 Follow these instructions to set up the project locally.
